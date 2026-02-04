@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kontakt – Life Coach Natalie Noack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script defer src="script.js"></script>
+  </head>
+  <body data-theme="dark">
+    <header class="site-header">
+      <nav class="nav">
+        <div class="brand">
+          <img src="Bilder/NLogoT.png" alt="Life Coach Logo" />
+          <div>
+            <p class="brand-name">Natalie Noack</p>
+            <p class="brand-sub">Kontakt</p>
+          </div>
+        </div>
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-label="Menü öffnen">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+        <div class="nav-actions" data-nav-menu>
+          <a class="nav-link" href="index.html">Start</a>
+          <a class="nav-link" href="leistungen.html">Leistungen</a>
+          <a class="nav-link" href="ueber-uns.html">Über mich</a>
+          <a class="nav-link" href="referenzen.html">Referenzen</a>
+          <a class="nav-link" href="faq.html">FAQ</a>
+          <a class="nav-link" href="kontakt.html">Kontakt</a>
+          <button class="mode-toggle" type="button" data-theme-toggle>
+            <span>Dark Mode</span>
+          </button>
+          <a class="button" href="kontakt.html">Erstgespräch</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <div>
+          <p class="eyebrow">Kontakt aufnehmen</p>
+          <h1>Ihr nächster Schritt zu mehr Ruhe und Klarheit.</h1>
+          <p class="subheadline">
+            Schreiben oder rufen Sie an – ich antworte persönlich und zeitnah.
+          </p>
+        </div>
+        <div class="page-hero-card">
+          <h3>Direkt erreichbar</h3>
+          <p>E-Mail: noacknatalie1981@gmail.com</p>
+          <p>Telefon: +49 177 3828694</p>
+        </div>
+      </section>
+
+      <section class="section contact">
+        <div class="section-title">
+          <h2>Kontaktformular</h2>
+          <p>Beschreiben Sie kurz, worum es geht. Ich melde mich schnellstmöglich zurück.</p>
+        </div>
+        <form class="contact-form">
+          <label>
+            Name
+            <input type="text" name="name" placeholder="Ihr Name" required />
+          </label>
+          <label>
+            E-Mail
+            <input type="email" name="email" placeholder="Ihre E-Mail" required />
+          </label>
+          <label>
+            Telefon (optional)
+            <input type="tel" name="phone" placeholder="Ihre Telefonnummer" />
+          </label>
+          <label>
+            Anliegen
+            <textarea name="message" rows="5" placeholder="Worum geht es?" required></textarea>
+          </label>
+          <button class="button" type="submit">Nachricht senden</button>
+          <p class="form-hint">Durch Absenden stimmen Sie der Kontaktaufnahme zu.</p>
+        </form>
+      </section>
+
+      <section class="section availability">
+        <div class="section-title">
+          <h2>Terminbuchung</h2>
+          <p>Sie können auch direkt einen Termin anfragen – ich bestätige persönlich.</p>
+        </div>
+        <div class="availability-grid">
+          <div>
+            <h3>Zoom-Sessions</h3>
+            <p>Flexibel zwischen 09:00 und 19:00 Uhr, auch abends möglich.</p>
+          </div>
+          <div>
+            <h3>Präsenztermine</h3>
+            <p>Nach individueller Absprache in ruhiger, diskreter Umgebung.</p>
+          </div>
+          <div>
+            <h3>Gruppen-Coaching</h3>
+            <p>Neue Gruppen starten regelmäßig – ich informiere Sie gerne.</p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <button class="back-to-top" type="button" data-back-to-top aria-label="Zurück nach oben">
+      ↑
+    </button>
+
+    <footer class="footer">
+      <div>
+        <img src="Bilder/NLogoT.png" alt="Life Coach Logo" />
+        <p>Life Coach – Natalie Noack</p>
+      </div>
+      <div class="footer-links">
+        <a href="datenschutz.html">Datenschutz</a>
+        <span>•</span>
+        <a href="impressum.html">Impressum</a>
+      </div>
+      <p>© 2026 Life Coach. Alle Rechte vorbehalten.</p>
+    </footer>
+  </body>
+</html>
